@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".SplashAct"
+    android:background="@drawable/lo11"
+    android:orientation="horizontal">
+
+
+    <TextView
+        android:id="@+id/ivLogo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="50dp"
+        android:layout_marginTop="68dp"
+        android:fontFamily="@font/aclonica"
+        android:text="Welcome to"
+        android:textColor="#000000"
+        android:textSize="44sp" />
+
+    <TextView
+        android:id="@+id/ivSubtitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="-200dp"
+        android:layout_marginTop="370dp"
+        android:fontFamily="@font/aclonica"
+        android:text="CST"
+        android:textColor="#000000"
+        android:textSize="44sp" />
+
+    <TextView
+        android:id="@+id/ivLogo1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="-200dp"
+        android:layout_marginTop="420dp"
+        android:fontFamily="@font/aclonica"
+        android:text="Venue Booking App"
+        android:textColor="#000000"
+        android:textSize="30sp" />
+
+    <Button
+        android:id="@+id/ivBtn"
+        android:layout_width="151dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="-280dp"
+        android:layout_marginTop="500dp"
+        android:layout_marginBottom="76dp"
+        android:background="@drawable/bgbtn1"
+        android:lineSpacingExtra="8dp"
+        android:text="Get Started"
+        android:textColor="#FFF"
+        android:textSize="14sp" />
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="156dp"
+        android:layout_height="156dp"
+        android:background="@drawable/lo12"
+        android:layout_marginTop="220dp"/>
+
+
+</LinearLayout>

@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg"
+    tools:context=".SignIn">
+
+    <ImageView
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:layout_marginStart="110dp"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/lo12" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="150dp"
+        android:layout_marginTop="200dp"
+        android:fontFamily="@font/aclonica"
+        android:text="Sign In"
+        android:textColor="#10B618"
+        android:textSize="22sp" />
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/username"
+        android:layout_marginRight="60dp"
+        android:layout_marginLeft="60dp"
+        android:textAlignment="center"
+        android:layout_marginTop="290dp"
+        android:textColor="#5A5555"
+        android:autofillHints=""
+        tools:ignore="TextFields" />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/password"
+        android:layout_marginRight="60dp"
+        android:layout_marginLeft="60dp"
+        android:layout_marginTop="380dp"
+        android:textAlignment="center"
+        android:textColor="#5A5555"
+        android:inputType="textPassword"
+        android:autofillHints="" />
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="85dp"
+        android:layout_marginTop="450dp"
+        android:background="@drawable/bginout1"
+        android:text="@string/sign_in"
+        android:textColor="#ffffff"
+        tools:ignore="OnClick" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/new_user"
+        android:textSize="18sp"
+        android:layout_marginTop="520dp"
+        android:layout_marginStart="100dp"
+        android:textColor="#505150"/>
+
+    <TextView
+        android:id="@+id/tV3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/sign_up"
+        android:textSize="18sp"
+        android:onClick="onClick"
+        android:layout_marginTop="520dp"
+        android:layout_marginStart="200dp"
+        android:textColor="#9462eb"
+        tools:ignore="OnClick" />
+
+
+</FrameLayout>
